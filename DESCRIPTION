@@ -1,0 +1,18 @@
+Package: meancontest
+Type: Package
+Title: Robust Constrained Gaussian Mean Hypothesis Testing
+Version: 0.1.0
+Authors@R: person("Yikun", "Li", email = "YikunLi2028@u.northwestern.edu",
+    role = c("aut", "cre"))
+Description: An R counterpart of the mean-contest Python implementation of
+    robust signal detection with quadratically convex orthosymmetric mean
+    constraints. Provides the constrained testing interface, optimal dimension
+    utilities, and the original four filtering and testing steps. Implements
+    the source package's formulas and thresholds without replacing them with
+    alternate versions of the paper's algorithms.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.0.0)
+URL: https://github.com/TomLee0122/Mean_ConTest_R,
+    https://arxiv.org/abs/2308.13036
+BugReports: https://github.com/TomLee0122/Mean_ConTest_R/issues

@@ -1,0 +1,15 @@
+case,n_sam,dim_full,cr_rate,sigma,kind,values,dim_opt,c2,result,legacy_result
+low_null,80,4,0,1,none,,4,50,Accept,Accept
+low_signal,80,4,0.1,1,none,,4,50,Reject,Reject
+high_null,6,11,0.1,1,none,,11,50,Accept,Accept
+high_signal,6,11,0.1,1,none,,11,50,Reject,Reject
+single_dimension,25,1,0,2,none,,1,50,Accept,Accept
+ellipsoid,80,4,0.05,2,ep,4;1;0.14000000000000001;0.02,2,50,Accept,Accept
+rectangle,80,4,0.05,1,hr,2;0.5;0.070000000000000007;0.01,2,50,Accept,Accept
+zero_dimension,25,4,0.05,1,ep,0;0;0;0,0,50,NULL,NULL
+custom_diagonal,80,4,0.1,1,others,,2,50,Accept,Accept
+custom_rotated,80,4,0.1,1,others,,2,50,Accept,Accept
+prefilter_reject,20,3,0.1,1,none,,3,50,Reject,Reject
+sample_filter_low,80,4,0.1,1,none,,4,2,Reject,Accept
+sample_filter_high,6,11,0.1,1,none,,11,2,Accept,Accept
+fractional_weights_high,8,13,0.03,1,none,,13,1.5,Accept,Reject

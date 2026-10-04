@@ -1,0 +1,9 @@
+bibentry(
+  bibtype = "Misc",
+  title = "Robust Signal Detection with Quadratically Convex Orthosymmetric Constraints",
+  author = c(person("Yikun", "Li"), person("Matey", "Neykov")),
+  year = "2026",
+  eprint = "2308.13036",
+  archivePrefix = "arXiv",
+  url = "https://arxiv.org/abs/2308.13036"
+)

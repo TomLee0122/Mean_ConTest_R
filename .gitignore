@@ -1,0 +1,10 @@
+*.tar.gz
+*.Rcheck/
+.Rproj.user/
+.Rhistory
+.RData
+tests/reproduction/results/smoke/
+tests/reproduction/results/generated/
+tests/reproduction/results/plots/
+__pycache__/
+*.pyc

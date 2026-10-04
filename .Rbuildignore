@@ -1,0 +1,9 @@
+^LICENSE\.md$
+^\.gitignore$
+^.*\.Rproj$
+^\.Rproj\.user$
+^.*\.tar\.gz$
+^.*\.Rcheck$
+^tests/reproduction/results$
+^examples$
+^tests/reproduction$
